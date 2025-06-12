@@ -29,6 +29,7 @@ public class Main extends Application {
         System.out.println("Proximo id disponvel:");
         System.out.println(produtoDAO.carregarProximoId());
         System.out.println("----------------------------------------");
+        System.out.println("Lista de todos os produto:");
         System.out.println(produtoDAO.listarProdutos());
         launch();
     }
